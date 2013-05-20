@@ -30,5 +30,6 @@ s.source_files = 'HVLib', 'HVLib/**/*', '*.xc*'
   #
 s.preserve_paths = "HVLib"
 
+s.frameworks = 'Security', 'libxml2.2.dylib'
 
 end
