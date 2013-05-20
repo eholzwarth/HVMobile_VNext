@@ -15,4 +15,20 @@ Pod::Spec.new do |s|
 
   s.platform = :ios
   # s.platform = :osx # UIAutomation isn't yet on OS X
+
+s.source_files = 'HVLib', 'HVLib/**/*', '*.xc*'
+
+  # A list of resources included with the Pod. These are copied into the
+  # target bundle with a build phase script.
+  #
+  # s.resource  = "icon.png"
+  # s.resources = "Resources/*.png"
+
+  # A list of paths to preserve after installing the Pod.
+  # CocoaPods cleans by default any file that is not used.
+  # Please don't include documentation, example, and test files.
+  #
+s.preserve_paths = "HVLib"
+
+
 end
