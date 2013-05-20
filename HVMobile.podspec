@@ -30,7 +30,8 @@ s.source_files = 'HVLib', 'HVLib/**/*', '*.xc*'
   #
 s.preserve_paths = "HVLib"
 
-s.frameworks = 'Security', 'libxml2.2.dylib'
+s.frameworks = 'Security'
+s.libraries = 'libxml2.2.dylib'
 s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2/**' }
 
 end
